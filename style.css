@@ -80,6 +80,10 @@ main{
     cursor: pointer;
 }
 
+.container button:hover{
+    background-color: #1770e4;
+}
+
 .a-tag{
     text-align: center;
     margin: 15px 0 22px 0;
@@ -139,6 +143,10 @@ footer a:hover{
     cursor: pointer;
 }
 
+.more-l:hover{
+    background-color: #dce0e7;
+}
+
 .more-l p{
     text-align: center;
     font-weight: 400;
@@ -154,4 +162,10 @@ footer a:hover{
     font-size: 12px;
     text-align: start;
     margin-right: 5px;
+}
+
+@media screen and (max-width:600px) {
+    footer div{
+        width: 90%;
+    }
 }
