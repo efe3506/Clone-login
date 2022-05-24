@@ -1,171 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body{
-    background: #f5f6f7;
-    font-family: Helvetica, Arial, sans-serif;
+    background-color: #F0F2F5;
+    font-family: Helvetica, sans-serif;
 }
 
 
-/* giris ekrani / form  */
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
+/* Logo section */
+
+.main{
+    width: 100%;
+    height: 90vh;
+    margin: 250px auto !important;
 }
 
-.logo{
+.main a{
+    text-decoration: none;
+}
+
+.fb-logo{
     width: 300px;
-    height: 106px;
-    margin:25px auto;
+    padding: 0;
+    position: relative;
+    bottom: 0;
+    left: -30px;
 }
 
-.container{
-    width: 396px;
-    height: 346px;
+.main-heading{
+    font-size: 24px !important;
+}
+
+
+
+
+
+
+/* right side */
+
+.main-right{
     background-color: #fff;
     border-radius: 8px;
-    color: #1c1e21;
-    margin: 20px auto;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
-    font-size: 12px;
+    width: 400px;
+    height: 350px;
+    padding: 10px 0 24px 0 !important;
 }
 
-.container h2{
-    text-align: center;
-    font-weight: 300;
-    padding: 24px 0 16px 0;
+.giris-div{
+    padding: 14px 16px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
-.container p{
-    width: 342px;
-    margin: 4px 16px 6px 16px;
-    padding: 10px;
-    text-align: center;
-    background-color: #fff9d7;
+#eposta{
+    width: 330px !important;
+    height: 22px !important;
+    padding: 14px 16px !important;
+    font-size: 17px !important;
+    color: #1d2129;
+    border-radius: 6px !important;
 }
 
-.container form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#sifre{
+    width: 330px !important;
+    height: 22px !important;
+    padding: 14px 16px !important;
+    font-size: 17px !important;
+    color: #1d2129;
+    border-radius: 6px !important;
 }
 
-.container form input{
-    width: 330px;
-    padding: 14px 16px;
-    margin: 6px auto;
-    outline: none;
-    border-radius: 6px;
-    font-size: 17px;
-    border: 1px solid #dddfe2;
-}
-
-.container form button{
-    width: 332px;
-    font-size: 20px;
-    line-height: 48px;
-    font-weight: 600;
-    color: #fff;
-    background-color: #1877f2;
-    outline: none;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-.container button:hover{
-    background-color: #1770e4;
-}
-
-.a-tag{
-    text-align: center;
-    margin: 15px 0 22px 0;
-}
-
-.a-tag a{
-    text-decoration: none;
-    color: #1877f2;
-    font-size: 14px;
-}
-
-.a-tag a:hover{
-    text-decoration: underline;
-}
-
-/* footer */
-
-footer{
-    width: 100%;
-    height: 200px;
-    margin-top: 80px;
-    background-color: #fff;
-    align-self: baseline;
-    position: absolute;
-    bottom: 0;
-}
-
-footer div{
-    width: 55%;
-    margin: auto;
-}
-
-.languages{
-    padding: 25px 0 10px 0;
-    border-bottom: 1px solid #8A8D91;
-}
-
-.languages a, .others a{
-    color: #8A8D91;
-    text-decoration: none;
-    font-size: 12px;
-    text-align: start;
-    margin-right: 5px;
-}
-
-footer a:hover{
-    text-decoration: underline;
-}
-
-.more-l{
-    padding: 0 8px;
-    text-align: center;
-    line-height: 18px;
-    border-radius: 2px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-.more-l:hover{
-    background-color: #dce0e7;
-}
-
-.more-l p{
-    text-align: center;
-    font-weight: 400;
-}
-
-.others{
-    margin-top: 10px;
-}
-
-.last p{
-    color: #8A8D91;
-    margin-top: 18px;
-    font-size: 12px;
-    text-align: start;
-    margin-right: 5px;
-}
-
-@media screen and (max-width:600px) {
-    footer div{
-        width: 90%;
-    }
+#giris-btn{
+    width: 330px !important;
+    height: 50px !important;
+    padding: 0 16px !important;
+    border-radius: 6px !important;
 }
