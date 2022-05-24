@@ -9,7 +9,7 @@ body{
 
 .main{
     width: 100%;
-    height: 90vh;
+    height: 80vh;
     margin: 250px auto !important;
 }
 
@@ -26,12 +26,8 @@ body{
 }
 
 .main-heading{
-    font-size: 24px !important;
+    font-size: 28px !important;
 }
-
-
-
-
 
 
 /* right side */
@@ -43,10 +39,12 @@ body{
     width: 400px;
     height: 350px;
     padding: 10px 0 24px 0 !important;
+    margin: 40px 30px 0 30px !important;
+    position: relative;
+    top: -50px;
 }
 
 .giris-div{
-    padding: 14px 16px !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
@@ -54,18 +52,20 @@ body{
 }
 
 #eposta{
-    width: 330px !important;
+    width: 340px !important;
     height: 22px !important;
-    padding: 14px 16px !important;
+    padding: 25px 36px !important;
+    margin: auto a;
     font-size: 17px !important;
     color: #1d2129;
     border-radius: 6px !important;
 }
 
 #sifre{
-    width: 330px !important;
+    width: 340px !important;
     height: 22px !important;
-    padding: 14px 16px !important;
+    padding: 25px 36px !important;
+    margin: auto a;
     font-size: 17px !important;
     color: #1d2129;
     border-radius: 6px !important;
@@ -76,4 +76,39 @@ body{
     height: 50px !important;
     padding: 0 16px !important;
     border-radius: 6px !important;
+}
+
+.bottom-text{
+    font-size: 14px!important;
+    position: relative;
+    bottom: 60px;
+}
+
+.bottom-text a:hover{
+    text-decoration: underline;
+}
+
+.sifre-unutma a:hover{
+    text-decoration: underline;
+}
+
+.line{
+    width: 75%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 50px;
+    border-bottom: 1px solid #dadde1;
+}
+
+#hesap-btn{
+    background-color: #42b72a !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 8px 16px !important;
+}
+
+#hesap-btn:hover{
+    background-color: #3ba726 !important;
 }
